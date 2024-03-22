@@ -23,4 +23,4 @@ go.work
 .idea/
 
 .ds_store/
-.DS_Store/
+.DS_Store
