@@ -27,9 +27,5 @@ func (v *Video) Validate() error {
 
 	err := validator.Struct(v)
 
-	if err != nil {
-		return err
-	}
-
-	return nil
+	return err
 }
