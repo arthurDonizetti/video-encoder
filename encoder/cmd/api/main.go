@@ -1,9 +1,9 @@
 package main
 
 import (
-	"log/slog"
+	log "github.com/sirupsen/logrus"
 )
 
 func main() {
-	slog.Info("")
+	log.Info("")
 }
